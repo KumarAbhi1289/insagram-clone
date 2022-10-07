@@ -9,12 +9,12 @@ This App, each time the page loads, generates a different amount of different po
 ## Setup
 
 Install all packages:
-
-javascript
 ```````````
 npm install
 ````````````
-Start app
 
+For Start app
+`````````
 ng serve
+`````````
 
