@@ -1,0 +1,15 @@
+<div id="home">
+  <main id="main-content">
+    <stories></stories>
+    <div class="posts-container">
+      <post 
+        *ngFor="let user of users" 
+        [username]="user.username" 
+        [userImageSource]="user.userImageSource"
+      ></post>
+    </div>
+  </main>
+  <aside id="infos">
+    <aside-data></aside-data>
+  </aside>
+</div>

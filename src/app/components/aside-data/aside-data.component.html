@@ -1,0 +1,48 @@
+<div id="aside-data">
+  <div class="user-infos">
+    <img [src]="userImageSource" alt="access my github :) https://github.com/KumarAbhi1289" class="user-img">
+    <div class="user-name-infos">
+      <span class="user-username">Abhi1289</span>
+      <span class="user-name">Abhishek Kumar Yadav</span>
+    </div>
+    <button class="btn">Switch</button>
+  </div>
+
+  <div class="suggestions">
+    <div class="suggestions-heading">
+      <h2>Suggestions for you</h2>
+
+      <button class="btn black">See All</button>
+    </div>
+    <div class="suggestions-wrapper">
+      <div class="suggestion" *ngFor="let user of users">
+        <img [src]="user.userImageSource" alt="" class="user-suggestion-avatar">
+        <div class="user-suggestion-data">
+          <span class="user-username">{{ user.username }}</span>
+          <span class="user-info">New to Instagram</span>
+        </div>
+        <button class="btn">Follow</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="insta-infos">
+    <ul class="insta-infos-list">
+      <li class="insta-info">About</li>
+      <li class="insta-info">Help</li>
+      <li class="insta-info">Press</li>
+      <li class="insta-info">API</li>
+      <li class="insta-info">Jobs</li>
+      <li class="insta-info">Privacy</li>
+      <li class="insta-info">Terms</li>
+    </ul>
+    <ul class="insta-infos-list">
+      <li class="insta-info">Locations</li>
+      <li class="insta-info">Language</li>
+    </ul>
+
+    <h2>
+      &copy; {{ year }} INSTAGRAM FROM META
+    </h2>
+  </div>
+</div>
