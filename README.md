@@ -10,7 +10,8 @@ This App, each time the page loads, generates a different amount of different po
 
 Install all packages:
 
-npm i
+javascript
+npm install
 
 Start app
 
