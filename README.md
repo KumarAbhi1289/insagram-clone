@@ -10,18 +10,9 @@ This App, each time the page loads, generates a different amount of different po
 
 Install all packages:
 
-``` Javascript
 npm i
-```
-
-or:
-
-``` Javascript
-yarn add
-```
 
 Start app
 
-```Javascript
 ng serve
-```
+
