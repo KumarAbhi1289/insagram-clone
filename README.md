@@ -11,8 +11,9 @@ This App, each time the page loads, generates a different amount of different po
 Install all packages:
 
 javascript
+```````````
 npm install
-
+````````````
 Start app
 
 ng serve
